@@ -1,0 +1,5 @@
+.footer a:hover {
+    color: #f8d7da; /* Cambia el color al pasar el mouse */
+    text-decoration: underline; /* Subraya el texto */
+  }
+  

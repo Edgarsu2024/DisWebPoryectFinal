@@ -1,0 +1,79 @@
+.container {
+    max-width: 1200px;
+  }
+  
+  .card {
+    border-radius: 12px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-body i {
+    font-size: 3rem;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-warning {
+    color: #ffc107 !important;
+  }
+  
+  .text-info {
+    color: #17a2b8 !important;
+  }
+  /* Estilo personalizado para el carrusel */
+.custom-carousel {
+  border: 2px solid #f8c8dc; /* Borde rosa claro */
+  border-radius: 10px;       /* Bordes redondeados */
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilo para las leyendas del carrusel */
+.custom-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Texto del carrusel */
+.custom-caption h5 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #f8c8dc; /* Texto color rosa claro */
+}
+
+.custom-caption p {
+  font-size: 1rem;
+  color: #fff; /* Blanco */
+}
+
+/* Botones de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Indicadores del carrusel */
+.carousel-indicators button {
+  background-color: #f8c8dc; /* Color rosa claro */
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #e83e8c; /* Rosa oscuro */
+}

@@ -1,0 +1,18 @@
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .empresa-info {
+    text-align: center;
+  }
+  
+  .empresa-info h1 {
+    font-size: 2rem;
+    color: #ff6347;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  

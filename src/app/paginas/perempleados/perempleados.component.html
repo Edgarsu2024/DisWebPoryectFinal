@@ -1,0 +1,50 @@
+<div class="container py-4">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3">
+        <div class="bg-light p-3 rounded shadow-sm">
+          <h4 class="text-primary mb-3">Categorías</h4>
+          <ul class="list-group">
+            
+            <li class="list-group-item">
+              <button class="btn btn-link text-decoration-none">Bebidas</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn btn-link text-decoration-none">Helados</button>
+            </li>
+          </ul>
+          <button class="btn btn-danger w-100 mt-3">Todos los productos</button>
+        </div>
+      </div>
+  
+      <!-- Product Grid -->
+      <div class="col-md-9">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="text-success">Nuestros Productos</h2>
+         
+        </div>
+  
+        <div class="d-flex align-items-center mb-3">
+          <span>Todos:</span>
+          <span class="badge bg-primary ms-2">Bebidas</span>
+          <span class="badge bg-success ms-2">Helados</span>
+          <span class="badge bg-danger ms-2">Delizia</span>
+        </div>
+  
+        <div class="row">
+          <!-- Repeat this block for each product -->
+          <div class="col-md-4 mb-4" *ngFor="let product of products">
+            <div class="card border-0 shadow-sm h-100">
+              <img [src]="product.image" class="card-img-top rounded-top" [alt]="product.name" />
+              <div class="card-body text-center">
+                <h5 class="card-title text-truncate">{{ product.name }}</h5>
+                <p class="text-muted mb-0">Precio sugerido</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
